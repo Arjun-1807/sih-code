@@ -1,0 +1,32 @@
+{
+  "station": {
+    "id": "TEST",
+    "name": "Test Junction",
+    "platforms": [
+      {"id": "P1", "len_m": 500},
+      {"id": "P2", "len_m": 500},
+      {"id": "P3", "len_m": 500},
+      {"id": "P4", "len_m": 500},
+      {"id": "P5", "len_m": 500},
+      {"id": "P6", "len_m": 500}
+    ]
+  },
+  "blocks": [
+    {"id": "B_UP1",   "dir": "UP",   "headway_s": 120, "line_speed_kmph": 100},
+    {"id": "B_UP2",   "dir": "UP",   "headway_s": 120, "line_speed_kmph": 100},
+    {"id": "B_UP3",   "dir": "UP",   "headway_s": 120, "line_speed_kmph": 100},
+    {"id": "B_UP4",   "dir": "UP",   "headway_s": 120, "line_speed_kmph": 100},
+    {"id": "B_DN1",   "dir": "DN",   "headway_s": 120, "line_speed_kmph": 100},
+    {"id": "B_DN2",   "dir": "DN",   "headway_s": 120, "line_speed_kmph": 100},
+    {"id": "B_DN3",   "dir": "DN",   "headway_s": 120, "line_speed_kmph": 100},
+    {"id": "B_DN4",   "dir": "DN",   "headway_s": 120, "line_speed_kmph": 100}
+  ],
+  "junctions": [
+    {"id": "J_TEST", "conflicts": [["B_UP1","B_DN1"], ["B_UP2","B_DN2"], ["B_UP3","B_DN3"], ["B_UP4","B_DN4"]]}
+  ],
+  "routes": [
+    {"id": "UP_IN",   "blocks": ["B_UP1","B_UP2","B_UP3","B_UP4"], "overlap_s": 30},
+    {"id": "DN_IN",   "blocks": ["B_DN1","B_DN2","B_DN3","B_DN4"], "overlap_s": 30}
+  ],
+  "tsr_psr": []
+}

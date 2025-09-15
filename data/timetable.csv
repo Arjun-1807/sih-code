@@ -1,0 +1,9 @@
+train_id,dir,priority,class,orig,dest,sch_arr,sch_dep,max_speed_kmph,length_m,dwell_s,platform_pref
+12001,UP,3,express,OUT,TEST,,09:00,110,220,90,P1
+12002,DN,3,express,OUT,TEST,,09:03,110,220,90,P2
+57412,UP,1,freight,OUT,TEST,,08:58,70,600,60,P5
+57413,DN,1,freight,OUT,TEST,,09:05,70,600,60,P6
+40011,UP,2,local,OUT,TEST,,09:02,90,180,45,
+40012,DN,2,local,OUT,TEST,,09:04,90,180,45,
+12999,UP,3,express,OUT,TEST,,09:06,110,220,90,P3
+12998,DN,3,express,OUT,TEST,,09:07,110,220,90,P4
