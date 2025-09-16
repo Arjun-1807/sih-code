@@ -1,0 +1,102 @@
+{"type": "SESSION_START", "ts": 0, "topology_file": "data/topology.json", "timetable_file": "data/timetable.csv"}
+{"ts": 0, "type": "TRAIN_LOAD", "train": "50001", "dir": "UP", "block": "B_UP1", "remaining_m": 1644.5571447072532, "dwell_s": 90}
+{"ts": 0, "type": "TRAIN_LOAD", "train": "50002", "dir": "DN", "block": "B_DN1", "remaining_m": 1797.4060059950982, "dwell_s": 90}
+{"ts": 0, "type": "TRAIN_LOAD", "train": "50003", "dir": "UP", "block": "B_UP2", "remaining_m": 1887.2803780344423, "dwell_s": 60}
+{"ts": 0, "type": "TRAIN_LOAD", "train": "50004", "dir": "DN", "block": "B_DN2", "remaining_m": 1694.8986200433578, "dwell_s": 60}
+{"ts": 0, "type": "TRAIN_LOAD", "train": "50005", "dir": "UP", "block": "B_UP1", "remaining_m": 1982.2419286458794, "dwell_s": 120}
+{"ts": 0, "type": "TRAIN_LOAD", "train": "50006", "dir": "DN", "block": "B_DN1", "remaining_m": 1691.0984812903312, "dwell_s": 120}
+{"ts": 0, "type": "TRAIN_LOAD", "train": "50007", "dir": "UP", "block": "B_UP2", "remaining_m": 1738.2048210004982, "dwell_s": 90}
+{"ts": 0, "type": "TRAIN_LOAD", "train": "50008", "dir": "DN", "block": "B_DN2", "remaining_m": 1865.0504920014566, "dwell_s": 90}
+{"ts": 0, "type": "TRAIN_LOAD", "train": "50009", "dir": "UP", "block": "B_UP1", "remaining_m": 1864.5935183562356, "dwell_s": 60}
+{"ts": 0, "type": "TRAIN_LOAD", "train": "50010", "dir": "DN", "block": "B_DN1", "remaining_m": 1810.1293601357115, "dwell_s": 60}
+{"ts": 0, "type": "TRAIN_LOAD", "train": "50011", "dir": "UP", "block": "B_UP2", "remaining_m": 1742.9578797702422, "dwell_s": 120}
+{"ts": 0, "type": "TRAIN_LOAD", "train": "50012", "dir": "DN", "block": "B_DN2", "remaining_m": 1685.7750788904382, "dwell_s": 120}
+{"ts": 0, "type": "HOLD", "train": "50002", "until": 120}
+{"ts": 0, "type": "PROCEED", "train": "50007"}
+{"ts": 5, "type": "HOLD", "train": "50009", "until": 125}
+{"ts": 5, "type": "PROCEED", "train": "50010"}
+{"ts": 10, "type": "HOLD", "train": "50003", "until": 130}
+{"ts": 25, "type": "HOLD", "train": "50011", "until": 145}
+{"ts": 30, "type": "KPI", "waiting": 4, "on_platform": 0, "completed": 0}
+{"ts": 40, "type": "HOLD", "train": "50011", "until": 160}
+{"ts": 55, "type": "HOLD", "train": "50011", "until": 175}
+{"ts": 60, "type": "ARRIVE_PLAT", "train": "50001", "platform": "P1", "dwell_s": 90}
+{"ts": 60, "type": "KPI", "waiting": 4, "on_platform": 1, "completed": 0}
+{"ts": 65, "type": "ARRIVE_PLAT", "train": "50007", "platform": "P3", "dwell_s": 90}
+{"ts": 70, "type": "ARRIVE_PLAT", "train": "50004", "platform": "P4", "dwell_s": 60}
+{"ts": 70, "type": "ARRIVE_PLAT", "train": "50008", "platform": "P2", "dwell_s": 90}
+{"ts": 70, "type": "HOLD", "train": "50011", "until": 190}
+{"ts": 75, "type": "HOLD_WAIT_PLATFORM", "train": "50010", "until": 95}
+{"ts": 85, "type": "HOLD", "train": "50011", "until": 205}
+{"ts": 90, "type": "HOLD_WAIT_PLATFORM", "train": "50006", "until": 110}
+{"ts": 90, "type": "HOLD_WAIT_PLATFORM", "train": "50012", "until": 110}
+{"ts": 90, "type": "KPI", "waiting": 7, "on_platform": 4, "completed": 0}
+{"ts": 95, "type": "HOLD_WAIT_PLATFORM", "train": "50010", "until": 115}
+{"ts": 100, "type": "HOLD", "train": "50011", "until": 220}
+{"ts": 105, "type": "HOLD_WAIT_PLATFORM", "train": "50005", "until": 125}
+{"ts": 110, "type": "HOLD_WAIT_PLATFORM", "train": "50006", "until": 130}
+{"ts": 110, "type": "HOLD_WAIT_PLATFORM", "train": "50012", "until": 130}
+{"ts": 115, "type": "HOLD_WAIT_PLATFORM", "train": "50010", "until": 135}
+{"ts": 115, "type": "HOLD", "train": "50011", "until": 235}
+{"ts": 120, "type": "KPI", "waiting": 7, "on_platform": 4, "completed": 0}
+{"ts": 120, "type": "HOLD", "train": "50006", "until": 240}
+{"ts": 125, "type": "HOLD_WAIT_PLATFORM", "train": "50005", "until": 145}
+{"ts": 130, "type": "DEPARTED", "train": "50004", "platform": "P4"}
+{"ts": 130, "type": "ARRIVE_PLAT", "train": "50012", "platform": "P4", "dwell_s": 120}
+{"ts": 135, "type": "HOLD_WAIT_PLATFORM", "train": "50010", "until": 155}
+{"ts": 135, "type": "HOLD", "train": "50006", "until": 255}
+{"ts": 145, "type": "HOLD_WAIT_PLATFORM", "train": "50005", "until": 165}
+{"ts": 150, "type": "DEPARTED", "train": "50001", "platform": "P1"}
+{"ts": 150, "type": "KPI", "waiting": 4, "on_platform": 3, "completed": 2}
+{"ts": 150, "type": "HOLD", "train": "50006", "until": 270}
+{"ts": 155, "type": "DEPARTED", "train": "50007", "platform": "P3"}
+{"ts": 155, "type": "ARRIVE_PLAT", "train": "50010", "platform": "P1", "dwell_s": 60}
+{"ts": 160, "type": "DEPARTED", "train": "50008", "platform": "P2"}
+{"ts": 165, "type": "ARRIVE_PLAT", "train": "50005", "platform": "P2", "dwell_s": 120}
+{"ts": 165, "type": "HOLD", "train": "50009", "until": 285}
+{"ts": 165, "type": "PROCEED", "train": "50002"}
+{"ts": 170, "type": "HOLD", "train": "50003", "until": 290}
+{"ts": 170, "type": "PROCEED", "train": "50002"}
+{"ts": 175, "type": "PROCEED", "train": "50002"}
+{"ts": 180, "type": "ARRIVE_PLAT", "train": "50002", "platform": "P3", "dwell_s": 90}
+{"ts": 180, "type": "KPI", "waiting": 4, "on_platform": 4, "completed": 4}
+{"ts": 180, "type": "HOLD", "train": "50006", "until": 300}
+{"ts": 195, "type": "HOLD", "train": "50006", "until": 315}
+{"ts": 210, "type": "KPI", "waiting": 4, "on_platform": 4, "completed": 4}
+{"ts": 210, "type": "HOLD", "train": "50006", "until": 330}
+{"ts": 215, "type": "DEPARTED", "train": "50010", "platform": "P1"}
+{"ts": 225, "type": "HOLD", "train": "50006", "until": 345}
+{"ts": 240, "type": "KPI", "waiting": 3, "on_platform": 3, "completed": 5}
+{"ts": 240, "type": "HOLD", "train": "50006", "until": 360}
+{"ts": 250, "type": "DEPARTED", "train": "50012", "platform": "P4"}
+{"ts": 255, "type": "HOLD", "train": "50006", "until": 375}
+{"ts": 270, "type": "DEPARTED", "train": "50002", "platform": "P3"}
+{"ts": 270, "type": "KPI", "waiting": 3, "on_platform": 1, "completed": 7}
+{"ts": 270, "type": "HOLD", "train": "50006", "until": 390}
+{"ts": 275, "type": "PROCEED", "train": "50011"}
+{"ts": 280, "type": "PROCEED", "train": "50011"}
+{"ts": 285, "type": "DEPARTED", "train": "50005", "platform": "P2"}
+{"ts": 285, "type": "HOLD", "train": "50006", "until": 405}
+{"ts": 285, "type": "PROCEED", "train": "50011"}
+{"ts": 290, "type": "PROCEED", "train": "50011"}
+{"ts": 295, "type": "ARRIVE_PLAT", "train": "50011", "platform": "P4", "dwell_s": 120}
+{"ts": 295, "type": "PROCEED", "train": "50009"}
+{"ts": 300, "type": "KPI", "waiting": 1, "on_platform": 1, "completed": 8}
+{"ts": 300, "type": "HOLD", "train": "50006", "until": 420}
+{"ts": 300, "type": "PROCEED", "train": "50009"}
+{"ts": 305, "type": "ARRIVE_PLAT", "train": "50009", "platform": "P2", "dwell_s": 60}
+{"ts": 305, "type": "PROCEED", "train": "50003"}
+{"ts": 310, "type": "ARRIVE_PLAT", "train": "50003", "platform": "P3", "dwell_s": 60}
+{"ts": 330, "type": "KPI", "waiting": 1, "on_platform": 3, "completed": 8}
+{"ts": 360, "type": "KPI", "waiting": 1, "on_platform": 3, "completed": 8}
+{"ts": 365, "type": "DEPARTED", "train": "50009", "platform": "P2"}
+{"ts": 370, "type": "DEPARTED", "train": "50003", "platform": "P3"}
+{"ts": 390, "type": "KPI", "waiting": 1, "on_platform": 1, "completed": 10}
+{"ts": 415, "type": "DEPARTED", "train": "50011", "platform": "P4"}
+{"ts": 420, "type": "ARRIVE_PLAT", "train": "50006", "platform": "P2", "dwell_s": 120}
+{"ts": 420, "type": "KPI", "waiting": 0, "on_platform": 1, "completed": 11}
+{"ts": 450, "type": "KPI", "waiting": 0, "on_platform": 1, "completed": 11}
+{"ts": 480, "type": "KPI", "waiting": 0, "on_platform": 1, "completed": 11}
+{"ts": 510, "type": "KPI", "waiting": 0, "on_platform": 1, "completed": 11}
+{"ts": 540, "type": "DEPARTED", "train": "50006", "platform": "P2"}
+{"ts": 540, "type": "KPI", "waiting": 0, "on_platform": 0, "completed": 12}
