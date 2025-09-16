@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b1020;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100;
+}
+
+.card {
+  @apply rounded-xl border border-slate-800 bg-slate-900/60 shadow-lg shadow-black/20 backdrop-blur;
+}
+

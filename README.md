@@ -1,16 +1,22 @@
-Run these pip commands
+Setup and run
 
-```
+```powershell
 cd sih-code
 python -m venv .venv
 .venv\Scripts\activate
-pip install langchain==0.2.12 langchain-core==0.2.35 langchain-community==0.2.10
 pip install -r requirements.txt
-python run_demo.py
+
+# start API (FastAPI)
+uvicorn app:app --reload --port 8000
 ```
-if there's a permission error when you try to activate venv saying can't run scripts on pc then do:
-```
+
+If you get an execution policy error in PowerShell when activating venv:
+```powershell
 Get-ExecutionPolicy
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
-then try running ```.venv\Scripts\activate``` again
+
+Command-line demo remains available:
+```powershell
+python run_demo.py
+```
